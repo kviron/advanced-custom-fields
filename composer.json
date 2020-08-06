@@ -1,4 +1,7 @@
 {
-    "name": "kviron/acf-wordpress",
-    "description": "Install ACF Pro version"
+ "name": "kviron/acf-wordpress",
+ "type": "wordpress-plugin",
+ "require": {
+ "composer/installers": "~1.0"
+ }
 }
