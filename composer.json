@@ -1,5 +1,5 @@
 {
- "name": "kviron/advanced-custom-fields-pro-master",
+ "name": "kviron/acf-wordpress",
  "type": "wordpress-plugin",
  "require": {
  "composer/installers": "~1.0"
