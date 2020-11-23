@@ -1,7 +1,7 @@
 {
  "name": "kviron/acf-wordpress",
  "type": "wordpress-plugin",
- "minimum-stability": "5.7.10",
+ "minimum-stability": "stable",
  "require": {
  "composer/installers": "~1.0"
  }
