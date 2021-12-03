@@ -5,14 +5,6 @@
 ### Installation
 Install plugin via composer. Add in file composer.json text below
 
-Installing repositoriy
-```json
-{
-    "type": "vcs",
-    "url": "git@github.com:kviron/acf-wordpress.git"
-}
-```
-
 Include package
 ```json
 "require": {
