@@ -16,7 +16,7 @@ Installing repositoriy
 Include package
 ```json
 "require": {
-        "kviron/acf-wordpress": "*"
+        "kviron/advanced-custom-fields": "*"
     }
 ```
 If need swiths paths installing, use command
