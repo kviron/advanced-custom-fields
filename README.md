@@ -5,18 +5,10 @@
 ### Installation
 Install plugin via composer. Add in file composer.json text below
 
-Installing repositoriy
-```json
-{
-    "type": "vcs",
-    "url": "git@github.com:kviron/acf-wordpress.git"
-}
-```
-
 Include package
 ```json
 "require": {
-        "kviron/acf-wordpress": "*"
+        "kviron/advanced-custom-fields": "*"
     }
 ```
 If need swiths paths installing, use command
@@ -25,13 +17,13 @@ If need swiths paths installing, use command
         "wordpress-install-dir": "public/wp",
         "wordpress-content-dir": "public/content",
         "installer-paths": {
-            "public/content/plugins/{$name}": [
+            "wp-content/plugins/{$name}": [
                 "type:wordpress-plugin"
             ],
-            "public/content/mu-plugins/{$name}": [
+            "wp-content/mu-plugins/{$name}": [
                 "type:wordpress-muplugin"
             ],
-            "public/content/themes/{$name}": [
+            "wp-content/themes/{$name}": [
                 "type:wordpress-theme"
             ]
         }
